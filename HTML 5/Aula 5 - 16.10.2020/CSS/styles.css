@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'Roboto Condensed', sans-serif; 
+    
+}
+
+main {
+  width: 70%;
+  /*margin: 100px 15% 0 15%;*/
+  margin-top: 100px 5%;
+  padding: 2rem 4rem;
+  background-color: rgba(30,50,60);
+  background-image: linear-gradient(rgb(30,50,60), rgb(103, 117, 124));
+  box-sizing: border-box;
+  border-radius: 1rem;
+  border: 10px solid rgb(140, 139, 197);
+  box-shadow: 0 0 15px rgba(30,50,60,100%);
+
+  
+
+  }
+
+  main:hover{
+    box-shadow: none;
+  }
+
+h1 {
+  font-size: 1.5rem;
+  color: rgb(220, 200, 200);
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: rgb(130, 130, 130);
+  line-height: 30px;
+  font-weight: 700;
+  
+}
+
+span {
+  /*text-decoration: underline;*/
+  width: 500px;
+  height: 100px;
+  background-color: rgb(243, 16, 16);
+}
+
+.bg-blue {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(17, 15, 155);
+  padding: 200px;
+  box-sizing: border-box;
+  
+}
+
+.bg-red {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(243, 16, 16);
+}
+ /* para selecionar class = . */
+ /* para selecionar id = # */
