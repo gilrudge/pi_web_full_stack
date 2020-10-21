@@ -13,8 +13,8 @@ main {
   background-color: rgba(30,50,60);
   background-image: linear-gradient(rgb(30,50,60), rgb(103, 117, 124));
   box-sizing: border-box;
-  border: 10px solid rgb(140, 139, 197);
-  box-shadow: 0 0 15px rgba(30,50,60,100%);
+  border: 5px solid rgb(40, 39, 92);
+  box-shadow: 0 0 2px rgba(30,50,60,100%);
 
   
 
@@ -22,6 +22,7 @@ main {
 
 main:hover{
   box-shadow: none;
+  transition: all 5s;
 }
 
 h1 {

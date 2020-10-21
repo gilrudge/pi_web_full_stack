@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(155, 148, 148, 0.3);
+}
+
+#header .navbar-list {
+  list-style: none;
+  background-color: black;
+  height: 3.2rem;
+  
+  
+}
+
+#header .navbar-list .list-item {
+  color: white;
+  padding: 1rem;  
+  width: 150px;   
+  margin-left: 1rem;
+  font-size: 2rem;
+  display: inline;  
+  
+}
+
+#header .navbar-list .list-item:hover {
+  background-color: #333;
+}
+
+#main-content {
+  margin-top: 1rem;
+  text-align: justify;
+  width: 100%;
+  /* margin-left: 15%; */
+  text-indent: 1.2rem;
+  padding: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+
+}
+
+#main-content h1.title{
+  font-size: 3rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+
+.texto p {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+#main-content a.link{
+text-decoration: none;
+font-weight: 700;
+color: rgb(30,30,30)
+}
+
+#main-content a.link:hover{
+ color: black
+  
+  }
+
+#main-content .texto .btn-mais {
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.3rem 1.8rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+  transition: 0.5s;
+}
+
+#main-content .texto .btn-mais:hover {
+  /* border: 2px solid gray;
+  background-color: transparent;
+  cursor: pointer; */
+  transform: translate(5px, 5px);
+  box-shadow: none;
+  transition: 0.5s;
+}
+
+#main-content .table {
+  border: 2px solid;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+  background-color: rgb(207, 207, 207);
+  
+  
+}
+
+
+#main-content .texto .table {
+  width: 100%;
+  margin: 1rem;
+}
+
+#main-content .texto .table thead tr {
+  background-color: black;
+  
+  
+}
+
+#main-content .texto .table thead tr th {
+  padding: 0.5rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color:rgb(207, 207, 207);
+}
+
+#main-content .texto .table tbody tr td {
+  border: 1px solid;
+  padding: 2.5px;
+  
+}
+
