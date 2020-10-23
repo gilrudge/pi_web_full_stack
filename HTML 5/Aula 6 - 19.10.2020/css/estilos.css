@@ -37,7 +37,7 @@ body {
 #main-content {
   margin-top: 1rem;
   text-align: justify;
-  width: 100%;
+  width: 86%;
   /* margin-left: 15%; */
   text-indent: 1.2rem;
   padding: 2rem;
@@ -93,6 +93,7 @@ color: rgb(30,30,30)
   transition: 0.5s;
 }
 
+/* TABELA */
 #main-content .table {
   border: 2px solid;
   box-sizing: border-box;
@@ -100,8 +101,8 @@ color: rgb(30,30,30)
   background-color: rgb(207, 207, 207);
   
   
+  
 }
-
 
 #main-content .texto .table {
   width: 100%;
@@ -127,5 +128,37 @@ color: rgb(30,30,30)
   border: 1px solid;
   padding: 2.5px;
   
+  
 }
 
+/* #main-content .texto .table tbody .color {
+  background-color: darkslategrey;
+}
+
+#main-content .texto .table tbody .color td {
+  color: rgb(207, 207, 207)
+} */
+
+.table tbody tr:nth-child(even) {
+  background-color: darkslategray;
+}
+
+#main-content .texto .table tbody tr td span.ap {
+  background-color: forestgreen;
+  padding: 2px;
+  color:white;
+  border-radius: 10px;
+  
+}
+
+#main-content .texto .table tbody tr td span.rp {
+  background-color: red;
+  padding: 2px;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+#main-content .texto .table tbody tr td span {
+  text-align: center;
+}
