@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+html,
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;  
+  color: antiquewhite;
+  justify-content: space-between;
+
+}
+
+.nav-brand:hover {
+  
+}
+
+.nav-brand {
+  color: antiquewhite;
+  text-decoration: none;
+  margin-left: 3.5rem;
+  
+}
+
+.nav-brand:hover{
+  border-bottom: 1px solid rgb(98, 113, 114);
+}
+
+
+.navbar .nav-list {  
+  list-style: none;
+  background-color: black;
+  height: 60px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 3.5rem;
+  
+  
+
+  display: flex;
+
+}
+
+.navbar .nav-list li {
+  margin: 0 1.1rem;
+  
+}
+
+.navbar .nav-list li a {
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid transparent;
+
+}
+
+.navbar .nav-list li a:hover {
+  border-bottom: 1px solid rgb(98, 113, 114);
+}
+
+#main-content {
+  width: 90%;
+  height: 600px;
+  background-color: #444444;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+  box-sizing: border-box;
+  
+}
+
+
+.first-section{
+  width: 70%;
+}
+
+/* container */
+.first-section .caixas {
+  /*estilos*/
+  height: 600px;
+
+  /*display*/
+  display: flex;
+  flex-direction: row; /* o row é o padrão e poderiamos oimitir essa linha  */
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* alinhamento horizontal*/
+  align-items: flex-start ; /* alinhamento vertical */
+  font-weight: bolder;
+
+}
+
+.first-section h1 {
+  margin: 15px;
+  text-align: center;
+  background-color: rgb(98, 113, 114);
+}
+
+.first-section .texto {
+  text-align: justify;
+  margin: 15px;
+  letter-spacing: 1px;
+  text-indent: 1.2rem;
+  
+  
+}
+
+
+/* Item */
+.caixa {
+  min-width: 150px;
+  max-width: 150px;
+  height: 150px;
+  color: antiquewhite;
+  font-weight: 700;
+  margin: 0;
+  border-radius: 0.6rem;
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+
+}
+
+.caixa1 {
+  background-color: red;
+  
+}
+
+.caixa2 {
+  background-color: blue;
+}
+
+.caixa3 {
+  background-color: orange;
+}
+
+.caixa4 {
+  background-color: green;
+}
+
+#sidebar {
+  margin: 15px;
+  min-width: 25%;
+  max-width: 25%;
+  border-left-style: dashed;
+  padding-left: 15px;
+  
+  
+  
+}
+
+#sidebar p {
+  text-align: justify;
+  margin: 15px;
+  text-indent: 1.2rem;
+  height: 600px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  
+}
+
+#sidebar h2 {
+ 
+  text-align: center;
+  background-color: rgb(98, 113, 114);
+  
+}
